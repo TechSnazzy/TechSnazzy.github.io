@@ -18,7 +18,9 @@
 }
 
 .headshot {
-  -webkit-box-shadow: 10px 10px 74px -17px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 74px -17px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 74px -17px rgba(0,0,0,0.75);
+  width: 25%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
 }
