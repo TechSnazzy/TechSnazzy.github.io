@@ -1,2 +1,2 @@
 # SeanWuzHere.github.io
-This will be my project portfolio page
+This is my project portfolio page
