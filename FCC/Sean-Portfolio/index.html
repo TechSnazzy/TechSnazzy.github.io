@@ -14,7 +14,7 @@
 
     <!-- Fontawesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
     <!-- Link my CSS after BS4 -->
     <link rel="stylesheet" href="css/styles.css">
@@ -27,7 +27,7 @@
 
         <!-- Start the navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary lead">
-          <a class="navbar-brand" href="#"><i class="fas fa-thumbs-up"></i></a>
+          <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,19 +38,42 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#site1">Node.js</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#site2">jQuery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#site3">Bootstrap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#site4">W3 Schools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#site5">freeCodeCamp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#site6">MDN Web Docs</a>
               </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+
+            <!-- Social Links -->
+            <ul class="navbar-nav navbar-right">
+              <li class="nav-item">
+                <a href="#" class="nav-link fa fa-facebook" target="_blank"></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link fa fa-twitter" target="_blank"></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link fa fa-instagram" target="_blank"></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link fa fa-linkedin" target="_blank"></a>
+              </li>
+            </ul>
+
+
           </div>
         </nav>
         <!-- End the navbar -->
@@ -61,13 +84,14 @@
             <div class="row">
               <div class="col-lg-6">
                 <h1 class="display-4 text-center">Sean's Portfolio Page</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p class="lead">I'd love to show you a gallery of web sites that I've developed. The only problem is that I haven't actually developed any yet. Although I am working on changing that soon. For now, here are some sites that I seem to visit often lately.</p>
                 <hr class="my-4">
-                <p class="lead">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead">This site is a simple, single-page layout that uses Bootstrap, Google Fonts and Font Awesome. And that's a picture of one of my cats, "Macy" when she was a kitten.</p>
                 <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                  <a class="btn btn-primary btn-lg" href="https://techsnazzy.com/" target="_blank" role="button">Learn more</a>
                 </p>
               </div>
+
               <div class="col-lg-6">
                 <img class="img-fluid" src="img/macy.jpg" alt="Sean Morrison">
               </div>
@@ -76,90 +100,90 @@
         </div>
         <!-- End Jumbotron -->
 
-        <!-- Start Gallery -->
+
         <div class="container">
-          <div class="row col-sm-12 col-md-12">
+          <div class="row">
 
-            <!-- Left -->
-            <div class="col col-lg-4">
-              <div class="card">
-                <img class="card-img-top img-fluid" src="img/bootstrap.png" alt="Bootstrap Website">
-                <div class="card-body">
-                  <h4 class="card-title">Bootstrap</h4>
-                  <p class="card-text">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
-                  <a href="https://getbootstrap.com/" class="btn btn-primary" target="_blank">Learn more</a>
-                </div>
-              </div>
+            <!-- Site 1 -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3 class="text-center">Node.js</h3>
+              <figure id="site1" class="figure">
+                <a href="https://nodejs.org/en/" target="_blank"><img class="img-thumbnail" src="img/node.png" alt="Node.js"></a>
+                <figcaption class="figure-caption">
+                  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+                </figcaption>
+              </figure>
             </div>
 
-            <!-- Middle -->
-            <div class="col col-lg-4">
-              <div class="card">
-                <img class="card-img-top img-fluid" src="img/jquery.png" alt="jQuery Website">
-                <div class="card-body">
-                  <h4 class="card-title">jQuery</h4>
-                  <p class="card-text">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
-                  <a href="https://jquery.com/" class="btn btn-primary" target="_blank">Learn more</a>
-                </div>
-              </div>
+            <!-- Site 2 -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3 class="text-center">Bootstrap</h3>
+              <figure id="site2" class="figure">
+                <a href="https://getbootstrap.com/" target="_blank"><img class="img-thumbnail" src="img/bootstrap.png" alt="Bootstrap"></a>
+                <figcaption class="figure-caption">
+                  Build responsive, mobile-first projects on the web with the world's most popular front-end component library.
+                </figcaption>
+              </figure>
             </div>
 
-            <!-- Right -->
-            <div class="col col-lg-4">
-              <div class="card">
-                <img class="card-img-top img-fluid" src="img/node.png" alt="Node.js Website">
-                <div class="card-body">
-                  <h4 class="card-title">Node.js</h4>
-                  <p class="card-text">Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</p>
-                  <a href="https://nodejs.org/en/" class="btn btn-primary" target="_blank">Learn more</a>
-                </div>
-              </div>
+            <!-- Site 3 -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3 class="text-center">jQuery</h3>
+              <figure id="site3" class="figure">
+                <a href="https://jquery.com/" target="_blank"><img class="img-thumbnail" src="img/jquery.png" alt="jQuery"></a>
+                <figcaption class="figure-caption">
+                  jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
+                </figcaption>
+              </figure>
             </div>
+
+            <!-- Site 4 -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3 class="text-center">W3 Schools</h3>
+              <figure id="site4" class="figure">
+                <a href="https://www.w3schools.com/" target="_blank"><img class="img-thumbnail" src="img/w3.png" alt="W3 Schools"></a>
+                <figcaption class="figure-caption">
+                  With HTML you can create your own Website.
+                  This tutorial teaches you everything about HTML.
+                  HTML is easy to learn - You will enjoy it.
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- Site 5 -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3 class="text-center">freeCodeCamp</h3>
+              <figure id="site5" class="figure">
+                <a href="https://www.freecodecamp.org" target="_blank"><img class="img-thumbnail" src="img/fcc.png" alt="freeCodeCamp"></a>
+                <figcaption class="figure-caption">
+                  Learn to code with free online courses, programming projects, and interview preparation for developer jobs.
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- Site 6 -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3 class="text-center">MDN Web Docs</h3>
+              <figure id="site6" class="figure">
+                <a href="https://developer.mozilla.org/en-US/" target="_blank"><img class="img-thumbnail" src="img/mdn.png" alt="MDN Web Docs"></a>
+                <figcaption class="figure-caption">
+                  Learn more about our projects, products and principles designed to help people take control and explore the full potential of their lives online.
+                </figcaption>
+              </figure>
+            </div>
+
 
           </div>
         </div>
-        <!-- End Gallery -->
 
 
-        <!-- Footer -->
-        <footer class="bg-primary text-white">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4">
-                <h2>Something</h2>
-                <p>Something</p>
-              </div>
 
-              <div class="col-lg-4">
-                <h2>Something</h2>
-                <p>Something</p>
-              </div>
-
-              <div class="col-lg-4">
-                <h2>Social Media</h2>
-                <ul>
-                  <li><i class="fab fa-facebook-f"></i></li>
-                  <li><i class="fab fa-twitter"></i></li>
-                  <li><i class="fab fa-instagram"></i></li>
-                  <li><i class="fab fa-google-plus-g"></i></li>
-                  <li><i class="fab fa-linkedin-in"></i></li>
-                </ul>
-              </div>
-            </div>
-
-
-            <div class="row">
-              <div class="col text-center">
-                <p class="lead">&copy; <a class="text-white" href="https://techsnazzy.com" target="_blank">TechSnazzy, LLC</a> - Site Coded and Written by <a class="text-white" href="https://twitter.com/seanmorrison" target="_blank">Sean Morrison</a></p>
-              </div>
-            </div>
-
-          </div>
+        <footer class="bg-primary text-white text-center">
+          <p class="lead">&copy; <a class="text-white" href="https://techsnazzy.com/" target="_blank">2018 TechSnazzy, LLC</a> - site coded and written by <a class="text-white" href="https://twitter.com/seanmorrison" target="_blank">Sean Morrison</a></p>
         </footer>
 
+
     </div>
-
-
 
     <!-- Place the Bootstrap 4 JS CDN at the end just before the closing body tag.
     This will load jQuery, Popper.js and Bootstrap JavaScript plugins respectively. -->
