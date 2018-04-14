@@ -22,17 +22,25 @@
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <title>TechSnazzy, LLC - Technology Consultation Services</title>
 </head>
+
+<style>
+/* when the width is <600 make TechSnazzy, LLC smaller to fit screen */
+@media only screen and (max-width: 600px) {
+    .techSnazzyLLC {
+        font-size: 250%;
+    }
+}
+</style>
 
 <body>
 
   <!-- NAVIGATION -->
   <div>
       <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-          <div class="container"><a class="navbar-brand" href="#" style="background-image:url(&quot;assets/img/techsnazzy-logo.png&quot;);background-position:center;background-size:80%;background-repeat:no-repeat;width:150px;height:50px;"></a><button class="navbar-toggler" data-toggle="collapse"
+          <div class="container"><a class="navbar-brand" href="#" style="background-image:url(&quot;assets/img/techsnazzy-logo.png&quot;);background-position:center;background-size:100%;background-repeat:no-repeat;width:250px;height:75px;"></a><button class="navbar-toggler" data-toggle="collapse"
                   data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
               <div class="collapse navbar-collapse" id="navcol-1">
                   <ul class="nav navbar-nav ml-auto">
@@ -49,7 +57,7 @@
   <div class="highlight-blue">
       <div class="container">
           <div class="intro">
-              <h2 class="text-center display-4">TechSnazzy, LLC</h2>
+              <h2 class="techSnazzyLLC text-center display-4">TechSnazzy, LLC</h2>
               <h2 class="text-center">Technology Consultation Services</h2>
               <p class="text-center lead">
                 Providing top-notch IT support and service for Windows, Mac and Linux and Front End Web Development using HTML, CSS and JavaScript. Check out my social sites below to learn more...
@@ -68,7 +76,7 @@
                   <i class="fab fa-linkedin text-white"></i>
                 </a>
               </div><br>
-              <p class="slogan text-center text-white">
+              <p class="text-center lead">
                 You won't need to be tech savvy when you have TechSnazzy!
               </p>
           </div>
