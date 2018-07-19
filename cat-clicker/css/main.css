@@ -1,12 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
 .container {
   width: 100%;
-  margin: 0 auto;
-}
-
-img {
-  width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
