@@ -1,303 +1,497 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="assets/img/techsnazzy-logo.png" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Features-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css" />
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css" />
+    <link rel="stylesheet" href="assets/css/Map-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Social-Icons.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+      integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+      crossorigin="anonymous"
+    ></script>
+    <title>TechSnazzy, LLC - Technology Consultation Services</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:image" content="assets/img/techsnazzy-logo.png">
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-  <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-  <link rel="stylesheet" href="assets/css/Features-Clean.css">
-  <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-  <link rel="stylesheet" href="assets/css/Footer-Clean.css">
-  <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-  <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-  <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
-  <link rel="stylesheet" href="assets/css/Map-Clean.css">
-  <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-  <link rel="stylesheet" href="assets/css/Social-Icons.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
-    crossorigin="anonymous"></script>
-  <title>TechSnazzy, LLC - Technology Consultation Services</title>
-</head>
-
-<style>
-  /* when the width is <600 make TechSnazzy, LLC smaller to fit screen */
-  @media only screen and (max-width: 600px) {
-    .techSnazzyLLC {
-      font-size: 250%;
+  <style>
+    /* when the width is <600 make TechSnazzy, LLC smaller to fit screen */
+    @media only screen and (max-width: 600px) {
+      .techSnazzyLLC {
+        font-size: 250%;
+      }
     }
-  }
-</style>
+  </style>
 
-<body>
+  <body>
+    <!-- NAVIGATION -->
+    <div>
+      <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container">
+          <a
+            class="navbar-brand"
+            href="#"
+            style="background-image:url(&quot;assets/img/techsnazzy-logo.png&quot;);background-position:center;background-size:100%;background-repeat:no-repeat;width:250px;height:75px;"
+          ></a
+          ><button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navcol-1"
+          >
+            <span class="sr-only">Toggle navigation</span
+            ><span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#">Home</a>
+              </li>
 
-  <!-- NAVIGATION -->
-  <div>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-      <div class="container"><a class="navbar-brand" href="#" style="background-image:url(&quot;assets/img/techsnazzy-logo.png&quot;);background-position:center;background-size:100%;background-repeat:no-repeat;width:250px;height:75px;"></a><button
-          class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
-            class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navcol-1">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
-            <!-- Udacity Dropdown Menu -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">Udacity Projects
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="nav-link" href="sean-portfolio/index.html" target="_blank">Sean Portfolio</a>
-                <a class="nav-link" href="personal-portfolio/index.html" target="_blank">Personal Portfolio</a>
-                <a class="nav-link" href="stanford-hiking/index.html" target="_blank">Stanford Hiking</a>
-                <a class="nav-link" href="tribute-page/index.html" target="_blank">Tribute Page</a>
-                <a class="nav-link" href="memory-game/index.html" target="_blank">Memory Game</a>
-                <a class="nav-link" href="arcade-game/index.html" target="_blank">Arcade Game</a>
-                <a class="nav-link" href="https://github.com/TechSnazzy/feed-reader" target="_blank">Feed Reader</a>
-                <a class="nav-link" href="pixel-art-maker/index.html" target="_blank">Pixel Art Maker</a>
-                <a class="nav-link" href="flexbox-aria-play/index.html" target="_blank">Flexbox ARIA Play</a>
-                <a class="nav-link" href="https://github.com/TechSnazzy/restaurant-reviews-app" target="_blank">Restaurants
-                  Review</a>
-                <a class="nav-link" href="https://sean-udacity-map-project.firebaseapp.com" target="_blank">Neighborhood
-                  Map</a>
-              </div>
-            </li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#about-me">About</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#contact-me">Contact</a></li>
-          </ul>
+              <!-- Other Projects Dropdown Menu -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Other Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a
+                    class="nav-link"
+                    href="sean-portfolio/index.html"
+                    target="_blank"
+                    >Sean Portfolio</a
+                  >
+                  <a
+                    class="nav-link"
+                    href="stanford-hiking/index.html"
+                    target="_blank"
+                    >Stanford Hiking</a
+                  >
+                  <a
+                    class="nav-link"
+                    href="pixel-art-maker/index.html"
+                    target="_blank"
+                    >Pixel Art Maker</a
+                  >
+                  <a
+                    class="nav-link"
+                    href="flexbox-aria-play/index.html"
+                    target="_blank"
+                    >Flexbox ARIA Play</a
+                  >
+                  <a
+                    class="nav-link"
+                    href="tribute-page/index.html"
+                    target="_blank"
+                    >Tribute Page</a
+                  >
+                </div>
+              </li>
+
+              <!-- Udacity Projects Dropdown Menu -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Udacity Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a
+                    class="nav-link"
+                    href="personal-portfolio/index.html"
+                    target="_blank"
+                    >Project 1: Personal Portfolio</a
+                  >
+
+                  <a
+                    class="nav-link"
+                    href="memory-game/index.html"
+                    target="_blank"
+                    >Project 2: Memory Game</a
+                  >
+                  <a
+                    class="nav-link"
+                    href="arcade-game/index.html"
+                    target="_blank"
+                    >Project 3: Arcade Game</a
+                  >
+                  <a
+                    class="nav-link"
+                    href="https://github.com/TechSnazzy/feed-reader"
+                    target="_blank"
+                    >Project 4: Feed Reader</a
+                  >
+
+                  <a
+                    class="nav-link"
+                    href="https://github.com/TechSnazzy/restaurant-reviews-app"
+                    target="_blank"
+                    >Project 5: Restaurants Review</a
+                  >
+
+                  <a
+                    class="nav-link"
+                    href="https://sean-udacity-myreads-project.firebaseapp.com"
+                    target="_blank"
+                    >Project 6: My Reads</a
+                  >
+
+                  <a
+                    class="nav-link"
+                    href="https://sean-udacity-map-project.firebaseapp.com"
+                    target="_blank"
+                    >Project 7: Neighborhood Map</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#about-me">About</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#contact-me">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </div>
-
-  <!-- INTRO -->
-  <div class="highlight-blue">
-    <div class="container">
-      <div class="intro">
-        <h2 class="techSnazzyLLC text-center display-4">TechSnazzy, LLC</h2>
-        <h2 class="text-center">Technology Consultation Services</h2>
-        <p class="text-center lead">
-          Providing top-notch IT support and service for Windows, Mac and Linux and Front End Web Development using
-          HTML, CSS and JavaScript. Check out my social sites below to learn more...
-        </p>
-        <div class="social text-center display-4">
-          <a href="https://www.facebook.com/TechSnazzyLLC" target="_blank">
-            <i class="fab fa-facebook-square text-white"></i>
-          </a>
-          <a href="https://www.twitter.com/TechSnazzyLLC" target="_blank">
-            <i class="fab fa-twitter-square text-white"></i>
-          </a>
-          <a href="https://www.instagram.com/TechSnazzyLLC" target="_blank">
-            <i class="fab fa-instagram text-white"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/theseanmorrison" target="_blank">
-            <i class="fab fa-linkedin text-white"></i>
-          </a>
-          <a href="https://github.com/TechSnazzy" target="_blank">
-            <i class="fab fa-github text-white"></i>
-          </a>
-          <a href="https://medium.com/@seanmorrison" target="_blank">
-            <i class="fab fa-medium text-white"></i>
-          </a>
-        </div><br>
-        <p class="text-center lead">
-          You won't need to be tech savvy when you have TechSnazzy!
-        </p>
-      </div>
+      </nav>
     </div>
-  </div>
 
-  <!-- PARALLAX GOLDEN GATE -->
-  <div data-bs-parallax-bg="true" style="height:500px;background-image:url(assets/img/para/golden-gate.jpg);background-position:center;background-size:cover;"></div>
-
-  <!-- SERVICES -->
-  <div class="features-clean">
-    <div class="container">
-      <div class="intro">
-        <h2 class="text-center">Solutions</h2>
-        <p class="text-center">Whether it's Windows, Mac or Linux I can help. You can count on me for friendly and
-          quality service. Technology should help you be more productive and get more done without breaking the bank.</p>
-      </div>
-      <div class="row features">
-        <div class="col-sm-6 col-lg-4 item">
-          <i class="fas fa-briefcase icon"></i>
-          <h3 class="name">Small/Medium Sized Business</h3>
-          <p class="description">With over 20 years of experience working with small and medium sized businesses, I
-            understand your needs and can help you with your business technology.</p>
-        </div>
-        <div class="col-sm-6 col-lg-4 item">
-          <i class="fas fa-users icon"></i>
-          <h3 class="name">Friendly Customer Service</h3>
-          <p class="description">Helpdesk, System Administration, Network Support, Data Backups and more. I will listen
-            to your needs and help you find solutions.</p>
-        </div>
-        <div class="col-sm-6 col-lg-4 item">
-          <i class="fas fa-laptop icon"></i>
-          <h3 class="name">Helpdesk Support</h3>
-          <p class="description">Having a full-time Helpdesk on staff doesn't make financial sense for you. Most of
-            your needs are met but you just need a tech person available to help out once in awhile.</p>
-        </div>
-        <div class="col-sm-6 col-lg-4 item">
-          <i class="fas fa-cloud icon"></i>
-          <h3 class="name">Web Site Development</h3>
-          <p class="description">Maybe you need a simple website. Something that establishes your business presence and
-            communicates your products and services to your customers and won't cost a fortune to maintain.</p>
-        </div>
-        <div class="col-sm-6 col-lg-4 item">
-          <i class="fas fa-server icon"></i>
-          <h3 class="name">Data Backups</h3>
-          <p class="description">Do you backup your data? If not, you should. There are many ways to backup your data.
-            Let's discuss the option that works best for you.</p>
-        </div>
-        <div class="col-sm-6 col-lg-4 item">
-          <i class="fas fa-dollar-sign icon"></i>
-          <h3 class="name">Affordable</h3>
-          <p class="description">Technology solutions don't have to be expensive. Today there are many affordable
-            options for you that will suit your business needs.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- PARALLAX COMPUTER FRONT-->
-  <div data-bs-parallax-bg="true" style="height:500px;background-image:url(assets/img/para/computer-front.jpg);background-position:center;background-size:cover;"></div>
-
-  <!-- ABOUT -->
-  <div id="about-me" class="highlight-blue">
-    <div class="container">
-      <div class="intro">
-        <h2 class="text-center">About Me</h2>
-        <p class="lead">
-          My name is Sean Morrison. Feel free to follow me on my social sites to learn more about me. Over the last 20
-          years, I've been an IT Support Specialist with small to medium sized businesses in the Bay Area. I have been
-          a professional Helpdesk, System and Network Administrator, developed websites and worked with a variety of
-          hardware and software.
-        </p>
-      </div>
-      <div class="text-center">
-        <a class="btn btn-success" role="button" href="https://www.linkedin.com/in/theseanmorrison" target="_blank">Learn
-          more...</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- PARALLAX COMPUTER CODE -->
-  <div data-bs-parallax-bg="true" style="height:500px;background-image:url(assets/img/para/computer-code.jpg);background-position:center;background-size:cover;"></div>
-
-  <!-- LOCATION -->
-  <div id="map-me" class="highlight-blue">
-    <div class="container">
-      <div class="intro">
-        <h2 class="text-center">Located in San Jose, CA</h2>
-      </div>
-    </div>
-    <div class="text-center">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203130.40383348995!2d-121.95749605721039!3d37.29720613266263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan+Jose%2C+CA!5e0!3m2!1sen!2sus!4v1523229541888"
-        scrolling="no" width="75%" height="450" frameborder="0" style="border:0" allowfullscreen>
-      </iframe>
-    </div>
-  </div>
-
-  <!-- PARALLAX CLOUD BACKUP -->
-  <div data-bs-parallax-bg="true" style="height:500px;background-image:url(assets/img/para/cloud-backup.jpg);background-position:center;background-size:cover;"></div>
-
-  <!-- CONTACT -->
-  <div id="contact-me" class="contact-clean">
-    <form action="https://formspree.io/seanwuzhere@gmail.com" method="POST">
-      <h2 class="text-center">Contact Me</h2>
-      <p class="lead">
-        Send me a message. I'd love to hear from you.
-      </p>
-      <div class="form-group">
-        <input class="form-control" type="text" name="name" placeholder="Full Name">
-      </div>
-      <div class="form-group">
-        <input class="form-control is-invalid" type="email" name="email" placeholder="Email Address">
-      </div>
-      <div class="form-group">
-        <textarea class="form-control" rows="14" name="message" placeholder="Message inquiry">
-            </textarea>
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">send</button>
-      </div>
-    </form>
-  </div>
-
-  <!-- PARALLAX SURFACE LAPTOP -->
-  <div data-bs-parallax-bg="true" style="height:500px;background-image:url(assets/img/para/surface-laptop.jpg);background-position:center;background-size:cover;"></div>
-
-  <!-- FOOTER -->
-  <div class="footer-clean">
-    <footer>
+    <!-- INTRO -->
+    <div class="highlight-blue">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-3 item">
-            <h3>Services</h3>
-            <ul>
-              <li><a href="#">Systems Administration</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Infrastructure Support</a></li>
-            </ul>
+        <div class="intro">
+          <h2 class="techSnazzyLLC text-center display-4">TechSnazzy, LLC</h2>
+          <h2 class="text-center">Technology Consultation Services</h2>
+          <p class="text-center lead">
+            Providing top-notch IT support and service for Windows, Mac and
+            Linux and Front End Web Development using HTML, CSS and JavaScript.
+            Check out my social sites below to learn more...
+          </p>
+          <div class="social text-center display-4">
+            <a href="https://www.facebook.com/TechSnazzyLLC" target="_blank">
+              <i class="fab fa-facebook-square text-white"></i>
+            </a>
+            <a href="https://www.twitter.com/TechSnazzyLLC" target="_blank">
+              <i class="fab fa-twitter-square text-white"></i>
+            </a>
+            <a href="https://www.instagram.com/TechSnazzyLLC" target="_blank">
+              <i class="fab fa-instagram text-white"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/theseanmorrison"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin text-white"></i>
+            </a>
+            <a href="https://github.com/TechSnazzy" target="_blank">
+              <i class="fab fa-github text-white"></i>
+            </a>
+            <a href="https://medium.com/@seanmorrison" target="_blank">
+              <i class="fab fa-medium text-white"></i>
+            </a>
           </div>
-          <div class="col-sm-6 col-md-3 item">
-            <h3>Company</h3>
-            <ul>
-              <li><a href="#about-me">About</a></li>
-              <li><a href="#contact-me">Contact</a></li>
-              <li><a href="#map-me">Location</a></li>
-            </ul>
-          </div>
-          <div class="col-md-6 item text">
-            <h3>TechSnazzy, LLC</h3>
-            <p>
-              Providing top-notch IT support and service for Windows, Mac and Linux and Front End Web Development using
-              HTML, CSS and JavaScript. Check out my social sites below to learn more...
-            </p><br>
-            <p>
-              You won't need to be tech savvy when you have TechSnazzy!
+          <br />
+          <p class="text-center lead">
+            You won't need to be tech savvy when you have TechSnazzy!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PARALLAX GOLDEN GATE -->
+    <div
+      data-bs-parallax-bg="true"
+      style="height:500px;background-image:url(assets/img/para/golden-gate.jpg);background-position:center;background-size:cover;"
+    ></div>
+
+    <!-- SERVICES -->
+    <div class="features-clean">
+      <div class="container">
+        <div class="intro">
+          <h2 class="text-center">Solutions</h2>
+          <p class="text-center">
+            Whether it's Windows, Mac or Linux I can help. You can count on me
+            for friendly and quality service. Technology should help you be more
+            productive and get more done without breaking the bank.
+          </p>
+        </div>
+        <div class="row features">
+          <div class="col-sm-6 col-lg-4 item">
+            <i class="fas fa-briefcase icon"></i>
+            <h3 class="name">Small/Medium Sized Business</h3>
+            <p class="description">
+              With over 20 years of experience working with small and medium
+              sized businesses, I understand your needs and can help you with
+              your business technology.
             </p>
           </div>
-          <div class="col item social">
-            <a href="https://www.facebook.com/TechSnazzyLLC" target="_blank"><i class="icon ion-social-facebook"></i></a>
-            <a href="https://www.twitter.com/TechSnazzyLLC" target="_blank"><i class="icon ion-social-twitter"></i></a>
-            <a href="https://www.instagram.com/TechSnazzyLLC" target="_blank"><i class="icon ion-social-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/theseanmorrison" target="_blank"><i class="icon ion-social-linkedin"></i></a>
-            <a href="https://github.com/TechSnazzy" target="_blank"><i class="icond ion-social-github"></i></a>
+          <div class="col-sm-6 col-lg-4 item">
+            <i class="fas fa-users icon"></i>
+            <h3 class="name">Friendly Customer Service</h3>
+            <p class="description">
+              Helpdesk, System Administration, Network Support, Data Backups and
+              more. I will listen to your needs and help you find solutions.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item">
+            <i class="fas fa-laptop icon"></i>
+            <h3 class="name">Helpdesk Support</h3>
+            <p class="description">
+              Having a full-time Helpdesk on staff doesn't make financial sense
+              for you. Most of your needs are met but you just need a tech
+              person available to help out once in awhile.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item">
+            <i class="fas fa-cloud icon"></i>
+            <h3 class="name">Web Site Development</h3>
+            <p class="description">
+              Maybe you need a simple website. Something that establishes your
+              business presence and communicates your products and services to
+              your customers and won't cost a fortune to maintain.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item">
+            <i class="fas fa-server icon"></i>
+            <h3 class="name">Data Backups</h3>
+            <p class="description">
+              Do you backup your data? If not, you should. There are many ways
+              to backup your data. Let's discuss the option that works best for
+              you.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item">
+            <i class="fas fa-dollar-sign icon"></i>
+            <h3 class="name">Affordable</h3>
+            <p class="description">
+              Technology solutions don't have to be expensive. Today there are
+              many affordable options for you that will suit your business
+              needs.
+            </p>
           </div>
         </div>
-        <p class="copyright text-center">© 2018 <a href="https://techsnazzy.com">TechSnazzy, LLC</a> - site coded and
-          written by <a href="http://www.twitter.com/seanmorrison" target="_blank">Sean Morrison</a></p>
       </div>
-    </footer>
-  </div>
+    </div>
 
-  <!-- SCRIPTS -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/bs-animation.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <!-- PARALLAX COMPUTER FRONT -->
+    <div
+      data-bs-parallax-bg="true"
+      style="height:500px;background-image:url(assets/img/para/computer-front.jpg);background-position:center;background-size:cover;"
+    ></div>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117515000-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- ABOUT -->
+    <div id="about-me" class="highlight-blue">
+      <div class="container">
+        <div class="intro">
+          <h2 class="text-center">About Me</h2>
+          <p class="lead">
+            My name is Sean Morrison. Feel free to follow me on my social sites
+            to learn more about me. Over the last 20 years, I've been an IT
+            Support Specialist with small to medium sized businesses in the Bay
+            Area. I have been a professional Helpdesk, System and Network
+            Administrator, developed websites and worked with a variety of
+            hardware and software.
+          </p>
+        </div>
+        <div class="text-center">
+          <a
+            class="btn btn-success"
+            role="button"
+            href="https://www.linkedin.com/in/theseanmorrison"
+            target="_blank"
+            >Learn more...</a
+          >
+        </div>
+      </div>
+    </div>
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+    <!-- PARALLAX COMPUTER CODE -->
+    <div
+      data-bs-parallax-bg="true"
+      style="height:500px;background-image:url(assets/img/para/computer-code.jpg);background-position:center;background-size:cover;"
+    ></div>
 
-    gtag('config', 'UA-117515000-1');
-  </script>
+    <!-- LOCATION -->
+    <div id="map-me" class="highlight-blue">
+      <div class="container">
+        <div class="intro">
+          <h2 class="text-center">Located in San Jose, CA</h2>
+        </div>
+      </div>
+      <div class="text-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203130.40383348995!2d-121.95749605721039!3d37.29720613266263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan+Jose%2C+CA!5e0!3m2!1sen!2sus!4v1523229541888"
+          scrolling="no"
+          width="75%"
+          height="450"
+          frameborder="0"
+          style="border:0"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </div>
 
-</body>
+    <!-- PARALLAX CLOUD BACKUP -->
+    <div
+      data-bs-parallax-bg="true"
+      style="height:500px;background-image:url(assets/img/para/cloud-backup.jpg);background-position:center;background-size:cover;"
+    ></div>
 
+    <!-- CONTACT -->
+    <div id="contact-me" class="contact-clean">
+      <form action="https://formspree.io/seanwuzhere@gmail.com" method="POST">
+        <h2 class="text-center">Contact Me</h2>
+        <p class="lead">Send me a message. I'd love to hear from you.</p>
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="text"
+            name="name"
+            placeholder="Full Name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control is-invalid"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control"
+            rows="14"
+            name="message"
+            placeholder="Message inquiry"
+          >
+          </textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit">send</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- PARALLAX SURFACE LAPTOP -->
+    <div
+      data-bs-parallax-bg="true"
+      style="height:500px;background-image:url(assets/img/para/surface-laptop.jpg);background-position:center;background-size:cover;"
+    ></div>
+
+    <!-- FOOTER -->
+    <div class="footer-clean">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Systems Administration</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Infrastructure Support</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+                <li><a href="#map-me">Location</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>TechSnazzy, LLC</h3>
+              <p>
+                Providing top-notch IT support and service for Windows, Mac and
+                Linux and Front End Web Development using HTML, CSS and
+                JavaScript. Check out my social sites below to learn more...
+              </p>
+              <br />
+              <p>You won't need to be tech savvy when you have TechSnazzy!</p>
+            </div>
+            <div class="col item social">
+              <a href="https://www.facebook.com/TechSnazzyLLC" target="_blank"
+                ><i class="icon ion-social-facebook"></i
+              ></a>
+              <a href="https://www.twitter.com/TechSnazzyLLC" target="_blank"
+                ><i class="icon ion-social-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/TechSnazzyLLC" target="_blank"
+                ><i class="icon ion-social-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/theseanmorrison"
+                target="_blank"
+                ><i class="icon ion-social-linkedin"></i
+              ></a>
+              <a href="https://github.com/TechSnazzy" target="_blank"
+                ><i class="icond ion-social-github"></i
+              ></a>
+            </div>
+          </div>
+          <p class="copyright text-center">
+            © 2018 <a href="https://techsnazzy.com">TechSnazzy, LLC</a> - site
+            coded and written by
+            <a href="http://www.twitter.com/seanmorrison" target="_blank"
+              >Sean Morrison</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-117515000-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117515000-1');
+    </script>
+  </body>
 </html>
