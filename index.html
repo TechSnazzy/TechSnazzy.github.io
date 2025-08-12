@@ -1,119 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TechSnazzy, LLC – Your Partner in IT Success</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean Morrison – M365 &amp; IT Systems Administrator</title>
+  <!-- Import the same stylesheet used on techsnazzy.com to preserve look and feel -->
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome for icons (matching original site) -->
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <!-- Site Header with logo and navigation -->
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#">
-        <img src="https://techsnazzy.github.io/assets/img/techsnazzy-logo.png" alt="TechSnazzy logo" />
+        <!-- Use the existing TechSnazzy logo for consistency -->
+        <img src="https://techsnazzy.github.io/assets/img/techsnazzy-logo.png" alt="Sean Morrison logo">
       </a>
       <nav>
-        <a href="#solutions">Solutions</a>
-        <a href="#about">About</a>
-        <a href="#location">Location</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
+  <!-- Hero section summarizing who Sean is and what he offers -->
   <section class="hero">
     <div class="container hero-inner">
-      <h1>TechSnazzy, LLC</h1>
-      <p>Your Partner in IT Success</p>
-      <p class="sub">Expert IT support and web development tailored to your needs. Whether it’s Windows, Mac, or Linux, I simplify technology so you can focus on what you do best.</p>
-      <a class="cta" href="#contact">Get in Touch</a>
+      <h1>Sean Morrison</h1>
+      <p>M365&nbsp;&amp;&nbsp;IT Systems Administrator</p>
+      <p class="sub">Microsoft 365 expert with over two decades of experience designing secure modern workplaces, automating IT processes and supporting cross‑platform environments. I build scalable solutions using Entra&nbsp;ID, Intune, Autopilot and PowerShell to streamline deployments, harden security and empower end users.</p>
+      <a class="cta" href="#contact">Connect with Me</a>
     </div>
   </section>
 
-  <section id="solutions" class="section">
+  <!-- Experience section with condensed highlights from the resume -->
+  <section id="experience" class="section">
     <div class="container">
-      <h2 class="section-title">Smart IT for Your Business</h2>
-      <p class="section-lead">Count on friendly, reliable service that keeps your tech smooth and secure.</p>
+      <h2 class="section-title">Professional Experience</h2>
+      <p class="section-lead">A proven record of improving IT operations, securing endpoints and leading modern workplace initiatives.</p>
+      <div class="cards cards-3">
+        <!-- Card for Standard Fiber LLC -->
+        <article class="card">
+          <div class="icon"><i class="fa-solid fa-cloud"></i></div>
+          <h3>Standard&nbsp;Fiber&nbsp;LLC</h3>
+          <p class="role">M365 Modern Workplace Administrator</p>
+          <p class="date">2017–2025</p>
+          <p>
+            At Standard&nbsp;Fiber I modernized the company’s endpoint management strategy using Windows&nbsp;Autopilot and Intune to provision and secure devices from first boot. I built an internal knowledge hub and produced training videos to empower users and reduce repeat tickets, automated common onboarding and service tasks with PowerShell and Python, and led E5 security deployments including MFA, Defender baselines and Purview DLP. I also managed domains and DNS, improved email deliverability with SPF/DKIM/DMARC, introduced Teams Rooms and RingCentral for collaboration and advised leadership on IT policy and Exchange&nbsp;Online operations.
+          </p>
+        </article>
 
+        <!-- Card for S3C Inc -->
+        <article class="card">
+          <div class="icon"><i class="fa-solid fa-network-wired"></i></div>
+          <h3>S3C&nbsp;Inc</h3>
+          <p class="role">Senior System Administrator</p>
+          <p class="date">2005–2017</p>
+          <p>
+            Serving as the sole IT administrator at this 10‑person ASIC hardware startup, I provided 24/7 support across Windows, macOS and Linux environments used for automotive sensor design. I consolidated infrastructure by virtualizing Active&nbsp;Directory, DHCP, DNS and print servers on a single ESXi host; installed firewalls and switches and ran structured cabling to deliver reliable wired and wireless access. I designed and maintained the company website in WordPress, documented ISO&nbsp;9000 compliant procedures and recovery guides, and ensured smooth operations for both office and lab.
+          </p>
+        </article>
+
+        <!-- Card for early career roles (Sandis, Texas Instruments & AT&T) -->
+        <article class="card">
+          <div class="icon"><i class="fa-solid fa-user-gear"></i></div>
+          <h3>Early Career</h3>
+          <p class="role">IT &amp; Communications</p>
+          <p class="date">1995–2005</p>
+          <p>
+            During my early career I provided daily IT support for Sandis, a multi‑office civil engineering firm—maintaining AutoCAD workstations and licensing servers, leading organization‑wide OS upgrades from Windows&nbsp;98 to XP and migrating email from on‑premise Exchange to hosted services. As Manager of Information Systems at Texas&nbsp;Instruments I oversaw systems administration for 150+ users, ensured reliable backups through daily tape rotations and delivered desktop support in Windows NT environments. I also served as a communications specialist at AT&amp;T&nbsp;Wireless, delivering front‑line technical support and outstanding customer service for mobile subscribers.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills & Certifications section -->
+  <section id="skills" class="about">
+    <div class="container about-inner">
+      <h2>Skills &amp; Certifications</h2>
+      <p>Proficiency across Microsoft cloud services, endpoint management, automation scripting and network administration, complemented by formal training and professional certifications.</p>
+      <div class="cards cards-2" style="margin-top: 36px;">
+        <!-- Skills card -->
+        <article class="card">
+          <div class="icon"><i class="fa-solid fa-gears"></i></div>
+          <h3>Core Competencies</h3>
+          <div class="item-grid">
+            <div class="item">Microsoft Entra&nbsp;ID &amp; Azure&nbsp;AD identity management</div>
+            <div class="item">Microsoft Intune &amp; Endpoint Configuration Manager</div>
+            <div class="item">Windows&nbsp;Autopilot &amp; device enrollment strategies</div>
+            <div class="item">Endpoint security (Defender, Purview DLP &amp; Zero‑Trust)</div>
+            <div class="item">PowerShell, Python &amp; Bash scripting for automation</div>
+            <div class="item">Virtualization (VMware&nbsp;ESXi, Hyper‑V) &amp; networking</div>
+            <div class="item">DNS, domain management &amp; web development (WordPress, HTML/CSS)</div>
+            <div class="item">Cross‑platform support (Windows, macOS, Linux) &amp; user training</div>
+          </div>
+        </article>
+        <!-- Certifications and honors card -->
+        <article class="card">
+          <div class="icon"><i class="fa-solid fa-certificate"></i></div>
+          <h3>Certifications &amp; Achievements</h3>
+          <div class="item-grid">
+            <div class="item">System Administration &amp; IT Infrastructure Services (Google)</div>
+            <div class="item">Operating Systems and You: Becoming a Power User (Google)</div>
+            <div class="item">Web Development Certificate of Achievement</div>
+            <div class="item">Grow with Google Challenge Scholarship recipient</div>
+            <div class="item">Mission College Speech Tournament award</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education section -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <p class="section-lead">Continuous learning has been central to my career growth.</p>
       <div class="cards cards-3">
         <article class="card">
-          <div class="icon"><i class="fa-solid fa-people-arrows"></i></div>
-          <h3>Tailored IT Support</h3>
-          <p>Small and mid‑sized businesses need IT that fits. I provide friendly, no‑jargon support and practical guidance so your systems run smoothly and you can stay focused on work—not troubleshooting.</p>
+          <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Mission College</h3>
+          <p>Associate of Science in Computer Systems Networking &amp; Telecommunications (2012–2015) and Computer Network Technology. Coursework focused on network infrastructure, operating systems and troubleshooting.</p>
         </article>
-
+        <article class="card">
+          <div class="icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Udacity</h3>
+          <p>Front‑End Web Development Nanodegree (2018) covering responsive design, JavaScript, HTML&nbsp;&amp;&nbsp;CSS.</p>
+        </article>
         <article class="card">
           <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
-          <h3>On‑Demand Help & Websites</h3>
-          <p>Need help without a full‑time IT team? I’m your on‑call resource for fixes, upgrades, and advice—plus clean, professional websites that reflect your brand and are easy to manage.</p>
-        </article>
-
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <h3>Security & Data Protection</h3>
-          <p>Keep your business safe and recoverable. I assess risks, harden endpoints, and set up reliable backups so your data stays protected and you can bounce back fast if something goes wrong.</p>
+          <h3>freeCodeCamp</h3>
+          <p>Responsive Web Design Developer Certificate, demonstrating proficiency in building accessible, mobile‑first websites.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <section id="about" class="about">
-    <div class="container about-inner">
-      <h2>About Me</h2>
-      <p>Hi, I’m Sean Morrison. I help small to mid‑sized businesses with practical, straight‑talk IT. From troubleshooting and managing systems to building websites and automation—I've got you covered.</p>
-    </div>
-  </section>
-
-  <section id="location" class="section">
-    <div class="container">
-      <h2 class="section-title">Located in the California Bay Area</h2>
-      <div class="map-wrap">
-        <img src="https://techsnazzy.github.io/assets/img/bayarea.png" alt="Bay Area California map" />
-      </div>
-    </div>
-  </section>
-
+  <!-- Contact section with general form, no personal phone/address -->
   <section id="contact" class="section contact">
     <div class="container">
-      <h2 class="section-title">Contact Me</h2>
-      <p class="section-lead">Send me a message — I’d love to hear from you.</p>
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-lead">Have a question or want to discuss a project? Send me a message — I’d love to connect.</p>
+      <!-- Users can submit through Formspree or their own endpoint -->
       <form class="contact-form" method="post" action="https://formspree.io/f/your-form-id">
-        <input type="text" name="name" placeholder="Full Name" required />
-        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
         <textarea name="message" rows="6" placeholder="Message..." required></textarea>
         <button type="submit">Send</button>
       </form>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container footer-inner">
       <div>
         <h4>Services</h4>
         <ul>
-          <li>Systems Administration</li>
-          <li>Web Development</li>
-          <li>Infrastructure Support</li>
+          <li>Modern Workplace &amp; Cloud</li>
+          <li>Automation &amp; Scripting</li>
+          <li>Virtualization &amp; Networking</li>
         </ul>
       </div>
       <div>
-        <h4>Company</h4>
+        <h4>Navigate</h4>
         <ul>
-          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#location">Location</a></li>
         </ul>
       </div>
       <div>
-        <h4>TechSnazzy, LLC</h4>
-        <p>Practical IT support and web development tailored to your needs. Simple, reliable, and stress‑free.</p>
+        <h4>Sean Morrison</h4>
+        <p>M365 &amp; IT Systems Administrator based in the California Bay&nbsp;Area. I help organizations modernize their infrastructure and simplify IT.</p>
       </div>
     </div>
-    <div class="legal">
-      © 2025 TechSnazzy, LLC — design by Sean Morrison
-    </div>
+    <div class="legal">© 2025&nbsp;Sean&nbsp;Morrison — built with the TechSnazzy style</div>
   </footer>
+
 </body>
 </html>
